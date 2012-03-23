@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="{{ STATIC_URL }}css/main.css" type="text/css" />
+</head>
+
+<body>
+	<div class="logo">Tamara's website!</div>
+	<ul class="nav">
+    	<li class="nav">HOME</li>
+       	<li class="nav">GALLERY</li>
+       	<li class="nav">CONNECTIONS</li>
+    	<li id="current-menu"><a href="{% url contactus %}">CONTACT-US</a></li>    	
+	</ul>
+	
+    <div class="contact-form">
+    	<form action="." method="POST">
+        	<table>
+	        	{% csrf_token %}
+        	    {{ form.as_table }}
+        	</table>
+        	<p><input type="submit" value="Submit"></p>
+    	</form>
+	</div>
+
+</body>
+
+</html>

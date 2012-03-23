@@ -1,0 +1,103 @@
+body {
+	background-color: #474747;
+	font-family: Helvetica, sans serif;
+}
+
+
+/*HOME PAGE */
+.logo {
+	position: relative;
+	color:#fcd30c;
+	font-size:32px;
+	margin: 40px 0px 0px 40px;
+	font-weight: bold;
+}
+
+ul.nav {
+	list-style-type: none;
+	text-decoration: none;
+}
+
+li.nav{
+	list-style-type: none;
+	text-decoration: none;
+	display: inline;
+	font-size:16px;
+	color:#ffffff;
+	margin: 0px 20px 0px 0px;
+}
+
+#current-menu {
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: underline;
+	display: inline;
+	margin: 0px 20px 0px 0px;
+
+}
+
+a: link{
+	text-decoration: none;
+	border-style: none;
+	color: #ffffff;
+	}
+	
+a:visited{
+	text-decoration: none;
+	border-style: none;
+	color: #ffffff;
+	}
+	
+a:hover{
+
+	text-decoration: none;
+	border-style: none;	
+	color: #ffffff;
+	}
+	
+a:active{
+
+	text-decoration: none;
+	border-style: none;	
+	color: #ffffff;
+	font-weight: bold;
+	}
+
+a.nav:link {
+	text-decoration: none;
+} 
+
+a.nav:visited {
+	text-decoration: none;
+}
+
+a.nav:hover {
+	text-decoration: none;
+}
+
+a.nav:active {
+	text-decoration: none;
+	border-style: none;
+}
+
+/*CONTACT US */
+
+.contact-form{
+	position: relative;
+	color: #ffffff;
+	font-weight: bold;
+	font-size:20px;
+	padding: 30px 0px 0px 40px;
+	text-align: left;
+	
+}
+
+/*THANK YOU */
+
+.thank-you{
+	position: relative;
+	color: #ffffff;
+	font-size:20px;
+	padding: 30px 0px 0px 40px;
+	text-align: left;
+}
